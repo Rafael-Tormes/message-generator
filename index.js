@@ -1,0 +1,1 @@
+console.log('Random Message Generator');/n
