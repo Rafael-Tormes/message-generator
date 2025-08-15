@@ -1,1 +1,1 @@
-console.log('Random Message Generator');/n
+console.log("Random Message Generator");
