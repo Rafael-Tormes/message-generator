@@ -1,6 +1,6 @@
 console.log("Random Message Generator");
 const randMessages = {
-  first: ["I", "You", "They"],
+  first: ["We", "You", "They"],
   second: [" smell", " seem", " are"],
   third: [" stinky.", " gross.", " lovely."],
 };
@@ -17,9 +17,9 @@ const genMessage = (arr1, arr2, arr3) => {
   let firstWord = tempArr1[randomNum()];
   let secondWord = tempArr2[randomNum()];
   let thirdWord = tempArr3[randomNum()];
-  console.log(firstWord);
-  console.log(secondWord);
-  console.log(thirdWord);
+  return `${firstWord}${secondWord}${thirdWord}`;
 };
 
-genMessage(randMessages.first, randMessages.second, randMessages.third);
+console.log(
+  genMessage(randMessages.first, randMessages.second, randMessages.third)
+);
